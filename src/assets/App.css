@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+Img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 10px auto;
+}
+input {
+  padding: 5px 3px;
+  margin: 20px 20px;
+}
+button {
+  padding: 10px;
+  line-height: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  margin-right: 10px;
+
+  cursor: pointer;
+}
+.hStyle {
+  background-color: purple;
+  color: White;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card {
+  max-width: 300px;
+  background-color: rgb(181, 231, 82);
+  border-radius: 10px;
+  margin: 10px auto;
+  text-align: center;
+  box-shadow: 4px 4px 4px gray;
+  padding: 20px;
+}
+.countButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px auto;
+}
+.heading {
+  margin: 20px auto;
+  text-align: center;
+}
+.cardTitle {
+  padding: 8px;
+}
+.cardFooter {
+  padding: 8px;
+}
